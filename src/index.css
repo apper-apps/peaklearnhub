@@ -1,0 +1,40 @@
+@import "react-toastify/dist/ReactToastify.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  
+  body {
+    @apply bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300;
+  }
+}
+
+@layer components {
+  .toast-container {
+    @apply text-sm;
+  }
+  
+  .Toastify__toast {
+    @apply rounded-lg shadow-lg;
+  }
+  
+  .Toastify__toast--success {
+    @apply bg-green-50 dark:bg-green-900 text-green-800 dark:text-green-100;
+  }
+  
+  .Toastify__toast--error {
+    @apply bg-red-50 dark:bg-red-900 text-red-800 dark:text-red-100;
+  }
+  
+  .Toastify__toast--info {
+    @apply bg-blue-50 dark:bg-blue-900 text-blue-800 dark:text-blue-100;
+  }
+  
+  .Toastify__toast--warning {
+    @apply bg-amber-50 dark:bg-amber-900 text-amber-800 dark:text-amber-100;
+  }
+}

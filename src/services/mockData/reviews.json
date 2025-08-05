@@ -1,0 +1,44 @@
+[
+  {
+    "Id": 1,
+    "userId": 2,
+    "programId": 1,
+    "userName": "김학습",
+    "userAvatar": "/api/placeholder/50/50",
+    "rating": 5,
+    "title": "정말 도움이 되는 강의였습니다",
+    "content": "텍스트 인플루언서 과정을 통해 정말 많은 것을 배웠습니다. 실무에 바로 적용할 수 있는 내용들이 가득했어요.",
+    "date": "2024-01-10",
+    "programTitle": "Text Influencer",
+    "verified": true,
+    "helpful": 23
+  },
+  {
+    "Id": 2,
+    "userId": 3,
+    "programId": 2,
+    "userName": "이마스터",
+    "userAvatar": "/api/placeholder/50/50",
+    "rating": 4,
+    "title": "핵심을 잘 정리한 강의",
+    "content": "Only3 방법론이 정말 인상적이었습니다. 복잡한 내용을 3가지 핵심으로 정리하는 방법을 배웠어요.",
+    "date": "2024-01-08",
+    "programTitle": "Only3",
+    "verified": true,
+    "helpful": 15
+  },
+  {
+    "Id": 3,
+    "userId": 1,
+    "programId": 3,
+    "userName": "관리자",
+    "userAvatar": "/api/placeholder/50/50",
+    "rating": 5,
+    "title": "강점 발견의 새로운 관점",
+    "content": "자신의 강점을 객관적으로 분석하고 활용하는 방법을 체계적으로 배울 수 있었습니다.",
+    "date": "2024-01-05",
+    "programTitle": "강점승부",
+    "verified": true,
+    "helpful": 31
+  }
+]

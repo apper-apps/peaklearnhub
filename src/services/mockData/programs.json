@@ -1,0 +1,86 @@
+[
+  {
+    "Id": 1,
+    "slug": "text-influencer",
+    "title": "Text Influencer",
+    "description": "Master the art of text-based influence and communication strategies",
+    "hasMembership": true,
+    "image": "/api/placeholder/400/300",
+    "category": "Communication",
+    "duration": "8 weeks",
+    "level": "Intermediate",
+    "instructor": "김문수",
+    "rating": 4.8,
+    "students": 1247,
+    "price": 299000,
+    "features": [
+      "텍스트 커뮤니케이션 전략",
+      "인플루언서 마케팅 기법",
+      "콘텐츠 기획 및 제작",
+      "개인 브랜딩 구축"
+    ]
+  },
+  {
+    "Id": 2,
+    "slug": "only3",
+    "title": "Only3",
+    "description": "Focus on the three essential elements for maximum learning efficiency",
+    "hasMembership": false,
+    "image": "/api/placeholder/400/300",
+    "category": "Productivity",
+    "duration": "6 weeks",
+    "level": "Beginner",
+    "instructor": "이지영",
+    "rating": 4.9,
+    "students": 892,
+    "price": 199000,
+    "features": [
+      "핵심 3요소 집중법",
+      "효율적 학습 전략",
+      "시간 관리 기법",
+      "목표 달성 방법론"
+    ]
+  },
+  {
+    "Id": 3,
+    "slug": "강점승부",
+    "title": "강점승부",
+    "description": "Leverage your unique strengths to achieve competitive advantage",
+    "hasMembership": false,
+    "image": "/api/placeholder/400/300",
+    "category": "Personal Development",
+    "duration": "10 weeks",
+    "level": "Advanced",
+    "instructor": "박성민",
+    "rating": 4.7,
+    "students": 654,
+    "price": 399000,
+    "features": [
+      "개인 강점 분석",
+      "경쟁 우위 전략",
+      "차별화 포인트 발굴",
+      "성과 극대화 방법"
+    ]
+  },
+  {
+    "Id": 4,
+    "slug": "대운의법칙",
+    "title": "대운의 법칙",
+    "description": "Understand the laws of great fortune and timing in life and business",
+    "hasMembership": false,
+    "image": "/api/placeholder/400/300",
+    "category": "Life Philosophy",
+    "duration": "12 weeks",
+    "level": "Expert",
+    "instructor": "최대운",
+    "rating": 4.6,
+    "students": 423,
+    "price": 499000,
+    "features": [
+      "운명학 기초 이론",
+      "타이밍 전략 수립",
+      "기회 포착 방법",
+      "인생 설계 가이드"
+    ]
+  }
+]
