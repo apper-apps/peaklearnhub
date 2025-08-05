@@ -14,11 +14,9 @@ import Only3 from "@/components/pages/Only3";
 import GangjeomSeungbu from "@/components/pages/GangjeomSeungbu";
 import DaeuneuiBeobchik from "@/components/pages/DaeuneuiBeobchik";
 import TextInfluencerMembership from "@/components/pages/TextInfluencerMembership";
-import TextInfluencerMaster from "@/components/pages/TextInfluencerMaster";
-import Only3Master from "@/components/pages/Only3Master";
-import GangjeomSeungbuMaster from "@/components/pages/GangjeomSeungbuMaster";
-import DaeuneuiBeobchikMaster from "@/components/pages/DaeuneuiBeobchikMaster";
-import MoneyInsight from "@/components/pages/MoneyInsight";
+import TextInfluencerMaster from '@/components/pages/TextInfluencerMaster'
+import Only3Master from '@/components/pages/Only3Master'
+import MoneyInsight from '@/components/pages/MoneyInsight'
 import Reviews from "@/components/pages/Reviews";
 import Profile from "@/components/pages/Profile";
 import AdminUsers from "@/components/pages/AdminUsers";
@@ -54,10 +52,10 @@ function App() {
             <Route path="program/강점승부" element={<GangjeomSeungbu />} />
             <Route path="program/대운의법칙" element={<DaeuneuiBeobchik />} />
             <Route path="program/text-influencer/membership" element={<TextInfluencerMembership />} />
-            <Route path="program/text-influencer/master" element={<TextInfluencerMaster />} />
+<Route path="program/text-influencer/master" element={<TextInfluencerMaster />} />
             <Route path="program/only3/master" element={<Only3Master />} />
-            <Route path="program/강점승부/master" element={<GangjeomSeungbuMaster />} />
-            <Route path="program/대운의법칙/master" element={<DaeuneuiBeobchikMaster />} />
+            <Route path="program/강점승부/master" element={<GangjeomSeungbu />} />
+            <Route path="program/대운의법칙/master" element={<DaeuneuiBeobchik />} />
             <Route path="money-insight" element={<MoneyInsight />} />
             <Route path="reviews" element={<Reviews />} />
             <Route path="profile" element={<Profile />} />
