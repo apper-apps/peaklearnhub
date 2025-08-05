@@ -16,12 +16,6 @@ import DaeuneuiBeobchik from "@/components/pages/DaeuneuiBeobchik";
 import TextInfluencerMembership from "@/components/pages/TextInfluencerMembership";
 import TextInfluencerMaster from '@/components/pages/TextInfluencerMaster'
 import Only3Master from '@/components/pages/Only3Master'
-import MoneyInsight from '@/components/pages/MoneyInsight'
-import Reviews from "@/components/pages/Reviews";
-import Profile from "@/components/pages/Profile";
-import AdminUsers from "@/components/pages/AdminUsers";
-import AdminLectures from "@/components/pages/AdminLectures";
-import AdminPosts from "@/components/pages/AdminPosts";
 
 function App() {
   const dispatch = useDispatch();
@@ -54,14 +48,8 @@ function App() {
             <Route path="program/text-influencer/membership" element={<TextInfluencerMembership />} />
 <Route path="program/text-influencer/master" element={<TextInfluencerMaster />} />
             <Route path="program/only3/master" element={<Only3Master />} />
-            <Route path="program/강점승부/master" element={<GangjeomSeungbu />} />
-            <Route path="program/대운의법칙/master" element={<DaeuneuiBeobchik />} />
-            <Route path="money-insight" element={<MoneyInsight />} />
-            <Route path="reviews" element={<Reviews />} />
-            <Route path="profile" element={<Profile />} />
-            <Route path="admin/users" element={<AdminUsers />} />
-            <Route path="admin/lectures" element={<AdminLectures />} />
-            <Route path="admin/posts" element={<AdminPosts />} />
+<Route path="program/강점승부/master" element={<GangjeomSeungbu />} />
+          <Route path="program/대운의법칙/master" element={<DaeuneuiBeobchik />} />
           </Route>
         </Routes>
         <ToastContainer 
